@@ -1,0 +1,49 @@
+.pagina {
+    min-height: 100vh;
+    background-color: #1c1c1e;
+    position: relative;
+}
+
+.conteudo {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 3rem;
+}
+
+.titulo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor-texto);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.progresso {
+    text-align: center;
+    color: #9a9a9e;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.botaoAdicionar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    font-size: 1.7rem;
+    line-height: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(108, 99, 255, 0.5);
+}
+
+.botaoAdicionar:hover {
+    background-color: var(--cor-primaria-hover);
+}
