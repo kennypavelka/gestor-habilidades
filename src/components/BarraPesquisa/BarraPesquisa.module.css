@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: transparent;
+    border: 1px solid #3a3a3c;
+    border-radius: 6px;
+    padding: 0.65rem 1rem;
+}
+
+.campo {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--cor-texto);
+    font-size: 0.95rem;
+}
+
+.campo::placeholder {
+    color: #7a7a7d;
+}
+
+.icone {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
